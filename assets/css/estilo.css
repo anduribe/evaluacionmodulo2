@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FBA148;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+  
+    background-color: transparent;
+    background-image: url("../img/fondo.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    z-index: 1;
+  }
+  
+      .navbar {
+        background-color: #2d4059;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        z-index: 2;
+      }
+  
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        margin-right: 1rem;
+      }
+  
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        z-index: 2;
+      }
+  
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+  
+      select {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 0.25rem;
+        margin-bottom: 1rem;
+      }
+  
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      .navbar-brand img {
+    width: 80px;
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+  }
+  @media screen and (min-width: 768px) {
+    .navbar-brand img {
+      width: 100px;
+    }
+    .navbar-brand {
+      margin-right: 0;
+      /* padding: 0 1em; */
+    }
+  }
+  
